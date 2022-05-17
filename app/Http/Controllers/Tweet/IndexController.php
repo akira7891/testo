@@ -9,7 +9,7 @@ class IndexController extends Controller
 {
     public function __invoke()
     {
-        return 'single!action';
+        return view('tweet.index',['name'=>'ららべる']);
     }
 
 }
